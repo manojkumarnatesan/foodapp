@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../contact/contact.css" />
+    <title>Contact Us</title>
+  </head>
+  <body>
+    <header>
+      <h1>Food Order App</h1>
+      <button id="contactBtn">Contact</button>
+    </header>
+
+    <main class="content">
+      <p>
+        Welcome to our Food Order App. Explore our delicious menu and place your
+        order online.
+      </p>
+    </main>
+
+    <div class="modal" id="contactModal">
+      <div class="modal-content">
+        <span class="close" id="closeBtn">&times;</span>
+        <h2>Contact Us</h2>
+        <form action="contact.js" method="post">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+
+    <footer>
+      <p>&copy; 2023 Food Order App. All rights reserved.</p>
+    </footer>
+
+    <script src="../contact/contact.js"></script>
+  </body>
+</html>

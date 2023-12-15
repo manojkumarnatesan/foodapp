@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./index.css">
+  <title>Responsive Food Order App</title>
+</head>
+<body>
+
+  <header>
+    <nav class="navbar" >
+      <ul>
+        <li><a href="./home/home.html">Home</a></li>
+        <li><a href="./catalogue/catalogue.html">Food Catalog</a></li>
+        <li><a href="./aboutUs/about.html">About Us</a></li>
+        <li><a href="./contact/contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="content">
+    <section id="home">
+      <h2>Welcome to our Food Order App</h2>
+      <p>Explore our delicious menu and place your order online.</p>
+    </section>
+
+    <section id="catalog">
+      <h2>Food Catalog</h2>
+      <div class="food-items">
+       
+        <div class="food-item">
+          <img src="./assets/burgers.jpg" alt="Burger"  style="width: 200px; height: 300px;">
+          <h3>Burger</h3>
+          <p>Delicious burger with all the toppings.</p>
+          <div class="add-to-cart">
+            <button>Add to Cart</button>
+            <label for="quantity">Quantity:</label>
+            <select id="quantity" name="quantity">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+             
+            </select>
+          </div>
+        </div>
+      
+      </div>
+    </section>
+
+    <section id="about">
+      <h2>About Us</h2>
+      <p>We are passionate about serving high-quality, tasty food to our customers. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <p>For inquiries, please contact us via email or phone.</p>
+      <div class="contact-info">
+        <p>Email: <a href="manojkumarakuru@gmail.com">manojkumarakuru@gmail.com</a></p>
+        <p>Phone: +91-7502316466</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Food Order App. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
